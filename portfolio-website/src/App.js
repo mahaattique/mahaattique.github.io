@@ -1,4 +1,6 @@
+
 import React from 'react';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import '/Users/mahaattique/Documents/GitHub/mahaattique.github.io/portfolio-website/src/styles/App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -9,7 +11,8 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="App">
+    // <Router basename="/portfolio-website">
+      <div className="App">
       <Header />
       <Hero />
       <About />
@@ -17,6 +20,7 @@ function App() {
       <Skills />
       <Contact />
     </div>
+    // </Router>
   );
 }
 
