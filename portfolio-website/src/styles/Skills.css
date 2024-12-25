@@ -1,0 +1,12 @@
+.skills {
+    padding: 2rem;
+    background: #fff;
+  }
+  
+  .skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
